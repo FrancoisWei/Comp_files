@@ -1,0 +1,8 @@
+streamlit
+st-gsheets-connection
+pandas
+smtplib
+ssl
+os
+dotenv
+pathlib
