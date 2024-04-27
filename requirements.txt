@@ -1,7 +1,6 @@
 streamlit
 st-gsheets-connection
 pandas
-ssl
 os
 dotenv
 pathlib
