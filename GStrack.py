@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-sender = os.getenv("SENDER"])
+sender = os.getenv("SENDER")
 password = os.getenv("PASSWORD")
 receiver = os.getenv("RECEIVER")
 subject = 'carbon offset update notice'
