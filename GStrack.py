@@ -9,9 +9,9 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-sender : st.secrets["SENDER"]
-password : st.secrets["PASSWORD"]
-receiver : st.secrets["RECEIVER"]
+sender = os.getenv("SENDER"])
+password = os.getenv("PASSWORD")
+receiver = os.getenv("RECEIVER")
 subject = 'carbon offset update notice'
 
 
