@@ -42,7 +42,7 @@ PRODUCTS = [
 ]
 
 #form
-with st.form(key="vendor_form"):
+with st.form(key="vendor_form",clear_on_submit = True):
     company_name = st.text_input(label="Company Name*",placeholder="Please write down the full name of your company")
     Contact = st.text_input(label="Name of person in charge*", placeholder="Please input the name of the person in charge")
     business_type = st.selectbox("Which part of our operations does your company assist with?*", options=Business_types, index=None)
