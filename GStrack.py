@@ -9,12 +9,9 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-current_dir = Path(__file__).resolve().parent if "__file__" in locals() else Path.cwd
-envars = current_dir / ".env"
-load_dotenv(envars)
-sender = os.getenv("SENDER")
-password = os.getenv("PASSWORD")
-receiver = os.getenv("RECEIVER")
+sender = st.secrets["SENDER"]
+password = st.secrets["PASSWORD"]
+receiver = st.secrets["RECEIVER"]
 subject = 'carbon offset update notice'
 
 
